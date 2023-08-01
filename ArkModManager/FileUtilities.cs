@@ -1,5 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+namespace ArkModManager;
+
 public class FileUtilities
 {
     public static void DeleteDirectory(String directory)

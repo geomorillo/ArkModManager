@@ -8,6 +8,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="bin\Release\net6.0\ArkModManager.deps.json" />
+    <Content Include="bin\Release\net6.0\ArkModManager.runtimeconfig.json" />
+    <Content Include="bin\Release\net6.0\config.json" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
   </ItemGroup>
 
@@ -33,6 +39,13 @@
     <None Update="config.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Release\net6.0\ArkModManager.dll" />
+    <None Include="bin\Release\net6.0\ArkModManager.exe" />
+    <None Include="bin\Release\net6.0\ArkModManager.pdb" />
+    <None Include="bin\Release\net6.0\Newtonsoft.Json.dll" />
   </ItemGroup>
 
 </Project>
