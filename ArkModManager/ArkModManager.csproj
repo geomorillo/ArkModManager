@@ -8,9 +8,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="bin\Release\net6.0\ArkModManager.deps.json" />
-    <Content Include="bin\Release\net6.0\ArkModManager.runtimeconfig.json" />
-    <Content Include="bin\Release\net6.0\config.json" />
+    <Compile Remove="bin\**" />
+    <EmbeddedResource Remove="bin\**" />
+    <None Remove="bin\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -42,10 +42,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="bin\Release\net6.0\ArkModManager.dll" />
-    <None Include="bin\Release\net6.0\ArkModManager.exe" />
-    <None Include="bin\Release\net6.0\ArkModManager.pdb" />
-    <None Include="bin\Release\net6.0\Newtonsoft.Json.dll" />
+    <Folder Include="release\" />
   </ItemGroup>
 
 </Project>
